@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.author    = 'Trung Lê'
   s.email     = 'joneslee85@gmail.com'
   s.homepage  = 'http://github.com/joneslee85/spree_ajax_add_to_cart'
-  
+
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_ajax_add_to_cart'
   s.version     = '2.3.2'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.2'
+  s.add_dependency 'spree_core', '~> 2.2-stable'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
